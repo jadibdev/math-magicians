@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Project Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web app where math fans are able to perfom simple calculations and read random quotes about math-related topics
 
 ## Available Scripts
 
@@ -68,4 +68,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # math-magicians
+
+## Authors
+
+👤 **Mohamed Jadib**
+
+- GitHub: [@githubhandle](https://github.com/jadibdev)
+- Twitter: [@twitterhandle](https://twitter.com/MohamedJadib)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-jadib-942a5041/)
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
+
+Show your support
+Give a ⭐️ if you like this project!
+
+📝 License
+This project is MIT licensed.
