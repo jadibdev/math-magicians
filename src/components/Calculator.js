@@ -1,35 +1,12 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prop-types */
 /* eslint-disable react/prefer-stateless-function */
-/* eslint-disable no-useless-constructor */
-/* eslint-disable max-classes-per-file */
 import React, { Component } from 'react';
-
-class Screen extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <div className="item screen">
-        <p>{this.props.counter}</p>
-      </div>
-    );
-  }
-}
-
-Screen.defaultProps = { counter: 0 };
+import Screen from './Screen';
 
 class Calculator extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="container">
-        <Screen expression={this.props.expression} result={this.props.result} />
+        <Screen />
         <button type="button" className="item">
           AC
         </button>
