@@ -1,23 +1,20 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class Screen extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      counter: 0,
-    };
-  }
-
   render() {
-    const { counter } = this.state;
+    const { result } = this.props;
     return (
       <div className="item screen">
-        <p>{counter}</p>
+        <p>{ result }</p>
       </div>
     );
   }
 }
+
+Screen.propTypes = {
+  result: PropTypes.string.isRequired,
+};
 
 export default Screen;
