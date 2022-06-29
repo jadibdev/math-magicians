@@ -1,6 +1,8 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import Screen from './Screen';
+import calculate from '../logic/calculate';
+import operate from '../logic/operate';
 
 class Calculator extends Component {
   render() {
