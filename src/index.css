@@ -1,3 +1,17 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 20px;
+}
 
 .container {
   margin: 50px auto 0 auto;
@@ -37,4 +51,25 @@
 
 .orange {
   background-color: #f5913f;
+}
+
+#calculator-cta {
+  position: relative;
+  top: 80px;
+  left: 20px;
+  text-decoration: underline;
+}
+
+.home-container p {
+  max-width: 700px;
+}
+
+.home-container {
+  padding-left: 20px;
+}
+
+#quote {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 100px;
 }
