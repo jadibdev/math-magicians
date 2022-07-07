@@ -15,7 +15,7 @@ const Calculator = () => {
     setState(display);
   };
 
-  let result;
+  let result = 0;
   const { total, next, operation } = State;
   if (next === null && operation === null && total === null) {
     result = 0;
