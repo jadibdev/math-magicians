@@ -2,6 +2,9 @@
 
 This project is a web app where math fans are able to perfom simple calculations and read random quotes about math-related topics
 
+### Live link
+[Math Magicians](https://frabjous-puffpuff-c6d093.netlify.app/)
+
 ## Tools
 
 - Javascript
